@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Mail, Phone, MapPin, Github, Linkedin, Send, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
-import HCaptcha from "react-hcaptcha";
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 const contactInfo = [
 	{
@@ -71,7 +71,7 @@ export function ContactSection() {
 			const response = await fetch("https://formspree.io/f/xwvpeelo", {
 				method: "POST",
 				headers: {
-					Accept: "application/json",
+					Accept: "applicati          npm run build          npm run build          npm run build          npm run buildon/json",
 				},
 				body: formDataToSend,
 			});
