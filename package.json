@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-hcaptcha": "^0.1.1"
+  }
+}
